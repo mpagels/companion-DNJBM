@@ -6,6 +6,9 @@
   margin-top: 20px;
 }
 
+.main-energy-level h2 {
+  margin-bottom: 12px;
+}
 .main-energy-level-button-100 {
   background-color: var(--button-color-01);
   color: var(--text-color);
@@ -69,7 +72,7 @@
 }
 
 .main-energy-chart h2 {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 /*  */
