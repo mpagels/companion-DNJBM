@@ -13,6 +13,8 @@
   align-items: center;
   background-image: url('/design/background_shape_1.svg');
   background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
 
 .header-title {

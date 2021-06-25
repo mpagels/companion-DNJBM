@@ -12,6 +12,7 @@
   justify-content: center;
   background-image: url('/design/background_shape_1.svg');
   background-repeat: no-repeat;
+  background-position: bottom;
   text-transform: uppercase;
 }
 
