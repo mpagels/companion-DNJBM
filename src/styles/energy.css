@@ -1,0 +1,74 @@
+@import '/src/styles/_base.css';
+@import '/src/styles/_colors.css';
+@import '/src/styles/index.css';
+
+.main-energy-level-button-100 {
+  background-color: var(--button-color-01);
+  color: var(--text-color);
+}
+
+.main-energy-level-button-75 {
+  background-color: var(--button-color-02);
+  color: var(--text-color);
+}
+
+.main-energy-level-button-50 {
+  background-color: var(--button-color-03);
+  color: var(--button-color-01);
+}
+
+.main-energy-level-button-25 {
+  background-color: var(--button-color-04);
+  color: var(--button-color-01);
+}
+
+.main-energy-level-button-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main-energy-level-button-content button {
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+/* Chart */
+
+.graph-columns,
+.graph-columns-2 {
+  width: 10px;
+  height: 175px;
+  border-radius: 8px 8px 0 0;
+}
+
+.main-graph-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.graph-column-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.graph-columns {
+  background-color: var(--button-color-01);
+}
+
+.graph-columns-2 {
+  background-color: var(--primary-color);
+}
+
+/*  */
+
+.graph-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
