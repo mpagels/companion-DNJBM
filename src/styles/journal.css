@@ -30,6 +30,21 @@
   align-items: center;
 }
 
+.rate-button {
+  width: 200px;
+  height: 48px;
+  padding: 12px 44px;
+  background-color: var(--button-color-01);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px 0 RGBA(255, 90, 54, 0.4);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
 .main-container {
   margin-bottom: 30px;
   width: 315px;
@@ -40,6 +55,10 @@
   border-radius: 6px;
   margin-top: 10px;
   padding: 20px;
+}
+
+.journal-title {
+  margin-bottom: 20px;
 }
 
 .scala {
