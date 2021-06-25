@@ -1,14 +1,24 @@
-@import '_base.css';
-@import '_colors.css';
+@import '/src/styles/_base.css';
+@import '/src/styles/_colors.css';
 
 .body {
   display: grid;
-  grid-template-rows: 10vh auto 10vh;
+  grid-template-rows: 81px auto 64px;
   height: 100vh;
 }
 
 .header {
-  background-color: black;
+  text-transform: uppercase;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-image: url('/design/background_shape_1.svg');
+}
+
+.header-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 18px;
 }
 
 .main {
@@ -16,5 +26,15 @@
 }
 
 .footer {
-  background-color: black;
+}
+
+.footer-nav {
+  margin: 0 20px 20px 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 44px;
+  box-shadow: var(--universal-shadow);
+  border-radius: 10px;
 }
