@@ -1,3 +1,6 @@
+@import '_base.css';
+@import '_colors.css';
+
 .body {
   display: grid;
   grid-template-rows: 10vh auto 10vh;
