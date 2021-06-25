@@ -1,0 +1,17 @@
+.body {
+  display: grid;
+  grid-template-rows: 10vh auto 10vh;
+  height: 100vh;
+}
+
+.header {
+  background-color: black;
+}
+
+.main {
+  overflow-y: scroll;
+}
+
+.footer {
+  background-color: black;
+}
