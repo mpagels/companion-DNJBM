@@ -1,1 +1,12 @@
-
+:root {
+  --text-color: #e0e4e8; /* Team color */
+  --primary-color: #193251; /* For icons, text and diagram */
+  --button-color-01: #ff5a36;
+  --button-color-02: #ff9c86;
+  --button-color-03: #ffbdaf;
+  --button-color-04: #ffded7;
+  --header-color: #f8f8f8;
+  --background-color: #ffffff;
+  --shadow-color: RGBA(25, 50, 81, 0.2); /* Hex: #193251 20% */
+  --universal-shadow: 0 2px 11px 0 RGBA(25, 50, 81, 0.2);
+}
