@@ -2,6 +2,10 @@
 @import '/src/styles/_colors.css';
 @import '/src/styles/index.css';
 
+.main-energy-level {
+  margin-top: 20px;
+}
+
 .main-energy-level-button-100 {
   background-color: var(--button-color-01);
   color: var(--text-color);
@@ -47,7 +51,7 @@
 .main-graph-container {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  justify-content: space-evenly;
 }
 
 .graph-column-container {
@@ -64,11 +68,49 @@
   background-color: var(--primary-color);
 }
 
+.main-energy-chart h2 {
+  margin-bottom: 20px;
+}
+
 /*  */
 
+.graph-text {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  color: var(--graph-text-color);
+}
 .graph-time {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: flex-end;
+  color: var(--graph-text-color);
+  margin-left: 60px;
+}
+
+.p-graph {
+  font-size: 12px;
+}
+
+.graph-boxes {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.graph-boxes-button1 {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.graph-boxes-button2 {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: var(--button-color-04);
+  color: var(--button-color-01);
+  font-size: 12px;
 }
