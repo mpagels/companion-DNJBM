@@ -23,8 +23,94 @@
 
 .main {
   overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.main-buddy {
+  margin-bottom: 30px;
+  width: 315px;
+}
+
+.main-team {
+  width: 315px;
+}
+
+.name-container {
+  border: 1px solid var(--text-color);
+  border-radius: 6px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.main-container-icon {
+  position: absolute;
+  top: 47px;
+  left: 146px;
+}
+
+.main-container-item {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--lightblue-color);
+  border-bottom: 1px solid var(--text-color);
+  width: 100%;
+  height: 57px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container-item:last-child {
+  border-bottom: none;
+}
+
+.journal-container {
+  box-shadow: var(--universal-shadow);
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 315px;
+}
+
+.scala {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+<<<<<<< HEAD
+=======
+.rating-icon {
+  padding-right: 20.18px;
+}
+
+.com-scala {
+  display: flex;
+  justify-content: space-between;
+}
+
+.journal-text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.motto-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--primary-color);
+}
+
+>>>>>>> 0402b42404c66577dd74d8e7cf3ebde47a6e4783
 .footer-nav {
   margin: 0 20px 20px 20px;
   background-color: white;
