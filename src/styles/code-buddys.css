@@ -1,0 +1,64 @@
+@import '/src/styles/_base.css';
+@import '/src/styles/_colors.css';
+
+.body {
+  display: grid;
+  grid-template-rows: 58.99px auto 64px;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-image: url('/design/background_shape_1.svg');
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+}
+
+.header-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 18px;
+  color: var(--primary-color);
+}
+
+.main {
+  padding-top: 30px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container {
+  margin-bottom: 30px;
+  width: 315px;
+}
+
+.name-container {
+  border: 1px solid var(--text-color);
+  border-radius: 6px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.main-container-icon {
+  position: absolute;
+  top: 47px;
+  left: 146px;
+}
+
+.main-container-item {
+  font-size: 16px;
+  color: var(--lightblue-color);
+  border-bottom: 1px solid var(--text-color);
+  height: 58px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container-item:last-child {
+  border-bottom: none;
+}
