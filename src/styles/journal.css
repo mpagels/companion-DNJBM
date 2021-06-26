@@ -12,7 +12,6 @@
   justify-content: center;
   background-image: url('/design/background_shape_1.svg');
   background-repeat: no-repeat;
-  background-position: bottom;
   text-transform: uppercase;
 }
 
@@ -31,37 +30,24 @@
   align-items: center;
 }
 
+.rate-button {
+  width: 200px;
+  height: 48px;
+  padding: 12px 44px;
+  background-color: var(--button-color-01);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px 0 RGBA(255, 90, 54, 0.4);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
 .main-container {
   margin-bottom: 30px;
   width: 315px;
-}
-
-.name-container {
-  border: 1px solid var(--text-color);
-  border-radius: 6px;
-  position: relative;
-  margin-top: 10px;
-}
-
-.main-container-icon {
-  position: absolute;
-  top: 47px;
-  left: 146px;
-}
-
-.main-container-item {
-  font-size: 16px;
-  color: var(--lightblue-color);
-  border-bottom: 1px solid var(--text-color);
-  height: 58px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-container-item:last-child {
-  border-bottom: none;
 }
 
 .journal-container {
@@ -69,6 +55,10 @@
   border-radius: 6px;
   margin-top: 10px;
   padding: 20px;
+}
+
+.journal-title {
+  margin-bottom: 20px;
 }
 
 .scala {
