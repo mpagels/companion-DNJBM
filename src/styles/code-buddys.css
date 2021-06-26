@@ -3,17 +3,18 @@
 
 .body {
   display: grid;
-  grid-template-rows: 58.99px auto 64px;
+  grid-template-rows: 81px auto 64px;
   height: 100vh;
 }
 
 .header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-image: url('/design/background_shape_1.svg');
   background-repeat: no-repeat;
   background-position: bottom;
-  text-transform: uppercase;
+  background-size: cover;
 }
 
 .header-title {
@@ -21,6 +22,14 @@
   font-weight: 700;
   padding-top: 18px;
   color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.header-subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  list-style: 18px;
+  color: var(--lightblue-color);
 }
 
 .main {
@@ -62,43 +71,6 @@
 
 .main-container-item:last-child {
   border-bottom: none;
-}
-
-.journal-container {
-  box-shadow: var(--universal-shadow);
-  border-radius: 6px;
-  margin-top: 10px;
-  padding: 20px;
-}
-
-.scala {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.rating-icon {
-  padding-right: 20.18px;
-}
-
-.com-scala {
-  display: flex;
-  justify-content: space-between;
-}
-
-.journal-text {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  color: var(--primary-color);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.motto-text {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 16px;
-  color: var(--primary-color);
 }
 
 .footer-nav {
