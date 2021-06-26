@@ -1,0 +1,200 @@
+@import '/src/styles/_base.css';
+@import '/src/styles/_colors.css';
+@import '/src/styles/index.css';
+
+/* Chart */
+
+.main-graph-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 31px;
+  right: 6px;
+  position: relative;
+}
+
+.graph-column-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  left: 5px;
+}
+
+.graph-columns,
+.graph-columns-2 {
+  width: 12px;
+  height: 175px;
+  border-radius: 8px 8px 0 0;
+}
+
+.graph-columns-two {
+  height: 154px;
+}
+.graph-columns-three {
+  height: 131px;
+}
+.graph-columns-four {
+  height: 148px;
+}
+.graph-columns-five {
+  height: 157px;
+}
+.graph-columns-six {
+  height: 109px;
+}
+.graph-columns-seven {
+  height: 72px;
+}
+.graph-columns-eight {
+  height: 95px;
+}
+.graph-columns-nine {
+  height: 47px;
+}
+
+.graph-columns-ten {
+  height: 33px;
+}
+
+.graph-columns {
+  background-color: var(--button-color-01);
+}
+
+.graph-columns-2 {
+  background-color: var(--primary-color);
+}
+
+.main-energy-chart h2 {
+  margin-bottom: 12px;
+}
+
+/*  */
+
+.graph-text {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  color: var(--graph-text-color);
+  position: relative;
+  right: 13px;
+}
+.graph-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 23px;
+  align-items: flex-end;
+  color: var(--graph-text-color);
+  margin-left: 60px;
+  position: relative;
+  right: 5px;
+}
+
+.p-graph {
+  font-size: 12px;
+}
+
+.graph-boxes {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  left: 10px;
+}
+
+.graph-boxes-button1 {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.graph-boxes-button2 {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: var(--button-color-04);
+  color: var(--button-color-01);
+  font-size: 12px;
+}
+
+.main-energy-chart-lines {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 85%;
+  height: 1px;
+  position: absolute;
+  background-color: lightgrey;
+  z-index: -1;
+  left: 50px;
+}
+
+.line1 {
+  top: 35px;
+}
+
+.line2 {
+  top: 78px;
+}
+
+.line3 {
+  top: 116px;
+}
+
+.line4 {
+  top: 158px;
+}
+
+.line5 {
+  bottom: 60px;
+}
+
+/*main energy level buttons*/
+.main-energy-chart {
+  position: relative;
+}
+.main-energy-level {
+  margin-top: 20px;
+}
+
+.main-energy-level h2 {
+  margin-bottom: 12px;
+}
+.main-energy-level-button-100 {
+  background-color: var(--button-color-01);
+  color: var(--text-color);
+}
+
+.main-energy-level-button-75 {
+  background-color: var(--button-color-02);
+  color: var(--text-color);
+}
+
+.main-energy-level-button-50 {
+  background-color: var(--button-color-03);
+  color: var(--button-color-01);
+}
+
+.main-energy-level-button-25 {
+  background-color: var(--button-color-04);
+  color: var(--button-color-01);
+}
+
+.main-energy-level-button-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main-energy-level-button-content button {
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 700;
+}
