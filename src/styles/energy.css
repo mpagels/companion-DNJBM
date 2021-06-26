@@ -79,7 +79,7 @@
   justify-content: space-between;
   color: var(--graph-text-color);
   position: relative;
-  right: 13px;
+  /* right: 13px; removed as agreed */
 }
 .graph-time {
   display: flex;
@@ -91,6 +91,7 @@
   margin-left: 60px;
   position: relative;
   right: 5px;
+  margin-top: 6px; /* BB*/
 }
 
 .p-graph {
@@ -105,20 +106,25 @@
 }
 
 .graph-boxes-button1 {
-  padding: 5px;
+  padding: 2px 8, 5px; /* based on the sketch*/
   margin: 10px;
   border-radius: 3px;
   background-color: var(--primary-color);
   color: var(--background-color);
+  width: 106px; /* bb*/
+  height: 20px; /* bb*/
+  white-space: nowrap; /* bb*/
 }
 
 .graph-boxes-button2 {
-  padding: 5px;
+  padding: 2px 9, 5px; /* bb*/
   margin: 10px;
   border-radius: 3px;
   background-color: var(--button-color-04);
   color: var(--button-color-01);
   font-size: 12px;
+  width: 42px; /* bb*/
+  height: 20px; /* bb*/
 }
 
 .main-energy-chart-lines {
@@ -158,10 +164,12 @@
 /*main energy level buttons*/
 .main-energy-chart {
   position: relative;
+  width: 315px; /* BB */
 }
 .main-energy-level {
   margin-top: 20px;
-}
+  width: 315px;
+} /* BB */
 
 .main-energy-level h2 {
   margin-bottom: 12px;
