@@ -71,15 +71,12 @@
   margin-bottom: 12px;
 }
 
-/*  */
-
 .graph-text {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
   color: var(--graph-text-color);
   position: relative;
-  right: 13px;
 }
 .graph-time {
   display: flex;
@@ -91,6 +88,7 @@
   margin-left: 60px;
   position: relative;
   right: 5px;
+  margin-top: 6px;
 }
 
 .p-graph {
@@ -105,20 +103,23 @@
 }
 
 .graph-boxes-button1 {
-  padding: 5px;
   margin: 10px;
   border-radius: 3px;
   background-color: var(--primary-color);
   color: var(--background-color);
+  width: 106px;
+  height: 20px;
+  white-space: nowrap;
 }
 
 .graph-boxes-button2 {
-  padding: 5px;
   margin: 10px;
   border-radius: 3px;
   background-color: var(--button-color-04);
   color: var(--button-color-01);
   font-size: 12px;
+  width: 42px;
+  height: 20px;
 }
 
 .main-energy-chart-lines {
@@ -158,9 +159,11 @@
 /*main energy level buttons*/
 .main-energy-chart {
   position: relative;
+  width: 315px;
 }
 .main-energy-level {
   margin-top: 20px;
+  width: 315px;
 }
 
 .main-energy-level h2 {
