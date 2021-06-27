@@ -103,7 +103,6 @@
 }
 
 .graph-boxes-button1 {
-  padding: 2px 8.5px;
   margin: 10px;
   border-radius: 3px;
   background-color: var(--primary-color);
@@ -114,7 +113,6 @@
 }
 
 .graph-boxes-button2 {
-  padding: 2px 9.5px;
   margin: 10px;
   border-radius: 3px;
   background-color: var(--button-color-04);
