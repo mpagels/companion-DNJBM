@@ -38,11 +38,22 @@
   color: white;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 4px 10px 0 RGBA(255, 90, 54, 0.4);
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 20px;
+}
+
+.rate-button:hover {
+  box-shadow: 0 4px 10px 0 RGBA(255, 90, 54, 0.4);
+}
+
+.rate-link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .main-container {
@@ -60,14 +71,26 @@
 .journal-title {
   margin-bottom: 20px;
 }
-
 .scala {
   margin-top: 10px;
   margin-bottom: 20px;
+  display: flex;
+}
+
+.rating-padding {
+  padding-right: 20.18px;
 }
 
 .rating-icon {
-  padding-right: 20.18px;
+  fill: var(--text-color);
+}
+
+.com-icon {
+  fill: var(--text-color);
+}
+
+.icon-toggled {
+  fill: var(--primary-color);
 }
 
 .com-scala {

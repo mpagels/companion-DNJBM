@@ -74,10 +74,23 @@
 .scala {
   margin-top: 10px;
   margin-bottom: 20px;
+  display: flex;
+}
+
+.rating-padding {
+  padding-right: 20.18px;
 }
 
 .rating-icon {
-  padding-right: 20.18px;
+  fill: var(--text-color);
+}
+
+.com-icon {
+  fill: var(--text-color);
+}
+
+.icon-toggled {
+  fill: var(--primary-color);
 }
 
 .com-scala {
