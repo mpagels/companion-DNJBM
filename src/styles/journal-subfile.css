@@ -51,6 +51,12 @@
   margin-bottom: 12px;
 }
 
+.transparent-icon {
+  fill: white;
+  stroke: var(--graph-text-color);
+  stroke-width: 1px;
+}
+
 textarea {
   border-radius: 4px;
   border: 1px solid var(--text-color);
