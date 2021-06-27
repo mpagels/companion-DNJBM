@@ -36,3 +36,8 @@ h3 {
   font-size: 12px;
   line-height: 16px;
 }
+
+.footer-nav-icons {
+  filter: invert(58%) sepia(21%) saturate(416%) hue-rotate(173deg)
+    brightness(87%) contrast(95%);
+}
