@@ -1,11 +1,7 @@
 @import '/src/styles/_base.css';
 @import '/src/styles/_colors.css';
 
-.body {
-  display: grid;
-  grid-template-rows: 58.99px auto 64px;
-  height: 100vh;
-}
+
 
 .header {
   display: flex;
